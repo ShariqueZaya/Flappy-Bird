@@ -6,11 +6,11 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Floating")]
     [SerializeField] private float floatAmplitude = 0.1f;
-    [SerializeField] private float floatSpeed = 4f;
+    [SerializeField] private float floatSpeed = 3f;
 
     [Header("Movment")]
-    [SerializeField] private float jumpForce = 5f;
-    [SerializeField] private float rotationSpeed = 20f;
+    [SerializeField] private float jumpForce = 4f;
+    [SerializeField] private float rotationSpeed = 19f;
 
     private Rigidbody2D rg;
     private Vector3 startPosition;
